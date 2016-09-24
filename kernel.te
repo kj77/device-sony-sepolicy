@@ -11,3 +11,6 @@ domain_auto_trans(kernel, touchfusion_exec, touchfusion)
 
 # Access firmware_file
 r_dir_file(kernel, firmware_file)
+
+# 3.4 modules
+dontaudit domain kernel:system module_request;
